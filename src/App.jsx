@@ -154,9 +154,7 @@ const App = () => {
               <input type="radio" name='visibility' value="no" checked={visibility === "no"} onChange={visibleHandler} />
               <label>No</label>
               <div className="error-message">{errors["visibility"] ? errors["visibility"] : ""}</div>
-
             </div>
-            
             {/* <button type='submit' onClick={validateForm}>Submit </button> */}
           </form>
         </div>
